@@ -4,11 +4,15 @@
   "description": "basic express study",
   "main": "server.js",
   "scripts": {
+    "start": "npx nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "rogee",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
